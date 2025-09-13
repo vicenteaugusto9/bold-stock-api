@@ -78,3 +78,10 @@
         res.status(500).json({message: 'Nao foi possivel deletar produto', error :error.message})
     }
  }
+
+ module.exports = {
+    createProduct,
+    atualizarProduct,
+    listarProductsPorID,
+    deletarProduct
+ }
